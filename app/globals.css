@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 390px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-anton);
+}
+
+@layer base {
+  * {
+    border-color: currentColor;
+    border-style: solid;
+  }
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  animation: gradient 6s ease infinite;
+}
