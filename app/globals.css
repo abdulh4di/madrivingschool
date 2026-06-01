@@ -39,3 +39,31 @@ body {
 .animate-gradient {
   animation: gradient 6s ease infinite;
 }
+
+.loader {
+  width: 15px;
+  aspect-ratio: 1;
+  background: #980000;
+  border-radius: 50%;
+  animation: l6 1s infinite linear alternate;
+}
+
+@keyframes l6 {
+  0% {
+    box-shadow:
+      25px 0 #980000,
+      -35px 0 #980000;
+  }
+
+  50% {
+    box-shadow:
+      25px 0 #980000,
+      -25px 0 #980000;
+  }
+
+  100% {
+    box-shadow:
+      35px 0 #980000,
+      -25px 0 #980000;
+  }
+}

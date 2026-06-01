@@ -111,15 +111,15 @@ export default function Header() {
               </div>
             </div>
 
-            <span className="bg-[#980000] self-center md:self-start  mx-4 w-fit text-white px-8 py-4 rounded-4xl md:w-62.5 md:px-4 hover:bg-[#760000] transition-colors duration-300 cursor-pointer">
+            <span className="bg-[#980000] self-center md:self-start mx-4 w-46 text-white px-8 py-4 rounded-4xl md:px-4 hover:bg-[#760000] transition-colors duration-300 cursor-pointer">
               <a href="" className="uppercase font-semibold flex justify-center">
-                Start Learning Today
+                Submit
               </a>
             </span>
           </div>
 
           {/* Contact Details */}
-          <div className="bg-[#FFFFFF] flex flex-col items-center text-center xl:items-start xl:text-start gap-4 px-4 py-6 rounded-2xl shadow-[2px_2px_22.2px_rgba(0,0,0,0.25)] xl:w-[30%] xl:gap-8">
+          <div className="bg-[#FFFFFF] flex flex-col items-center text-center xl:items-start xl:text-start gap-4 px-6 py-6 rounded-2xl shadow-[2px_2px_22.2px_rgba(0,0,0,0.25)] xl:w-[30%] xl:gap-8">
             <h2 className="font-heading text-[40px]">Contact Info</h2>
             <p className="w-[80%]">
               I’m always here to chat! Reach out with any questions or concerns you may have, and
@@ -135,7 +135,7 @@ export default function Header() {
               </div>
               <div className="flex items-center gap-4 rounded-full hover:bg-[#0000003f] transition-colors duration-300 cursor-pointer pr-2">
                 <div className="bg-black p-3 rounded-full">
-                  <FiPhoneCall className="text-2xl xl:text-3xl text-white"  />
+                  <FiPhoneCall className="text-2xl xl:text-3xl text-white" />
                 </div>
                 <span className="font-medium xl:text-[20px]">07123456789</span>
               </div>

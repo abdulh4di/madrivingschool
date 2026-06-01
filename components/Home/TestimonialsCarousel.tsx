@@ -29,7 +29,11 @@ export default function TestimonialsCarousel() {
         }}
       >
         <SwiperSlide>
-          <div className="bg-white px-6 py-8 rounded-2xl flex flex-col gap-8 items-center text-center shadow-[2px_2px_22.2px_rgba(0,0,0,0.05)]">
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            className="bg-white px-6 py-8 rounded-2xl flex flex-col gap-8 items-center text-center shadow-[2px_2px_22.2px_rgba(0,0,0,0.05)]"
+          >
             {/* Rating Star */}
             <div className="flex gap-1 text-[24px] text-[#F19D00]">
               <IoIosStar />
@@ -49,7 +53,8 @@ export default function TestimonialsCarousel() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-white px-6 py-8 rounded-2xl flex flex-col gap-8 items-center text-center shadow-[2px_2px_22.2px_rgba(0,0,0,0.05)]">
+          <div  data-aos="zoom-in"
+            data-aos-delay="400" className="bg-white px-6 py-8 rounded-2xl flex flex-col gap-8 items-center text-center shadow-[2px_2px_22.2px_rgba(0,0,0,0.05)]">
             {/* Rating Star */}
             <div className="flex gap-1 text-[24px] text-[#F19D00]">
               <IoIosStar />
@@ -69,7 +74,8 @@ export default function TestimonialsCarousel() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-white px-6 py-8 rounded-2xl flex flex-col gap-8 items-center text-center shadow-[2px_2px_22.2px_rgba(0,0,0,0.05)]">
+          <div  data-aos="zoom-in"
+            data-aos-delay="600" className="bg-white px-6 py-8 rounded-2xl flex flex-col gap-8 items-center text-center shadow-[2px_2px_22.2px_rgba(0,0,0,0.05)]">
             {/* Rating Star */}
             <div className="flex gap-1 text-[24px] text-[#F19D00]">
               <IoIosStar />

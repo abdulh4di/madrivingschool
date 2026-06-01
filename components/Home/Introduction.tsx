@@ -3,7 +3,7 @@ export default function Introduction() {
     <section>
         <div className="w-full py-6 md:py-20">
         <div className="max-w-7xl mx-auto px-5">
-          <figure className="rounded-2xl overflow-hidden h-175 md:h-150 relative shadow-[2px_2px_22.2px_rgba(0,0,0,0.25)]">
+          <figure data-aos="fade-up" data-aos-delay="250" className="rounded-2xl overflow-hidden h-175 md:h-150 relative shadow-[2px_2px_22.2px_rgba(0,0,0,0.25)]">
             <img
               src="/assets/Intro-mobile.png"
               alt=""
@@ -21,7 +21,7 @@ export default function Introduction() {
               At MA Driving School, I help learners build confidence, stay safe on the road and prepare for their driving test with calm, patient and professional lessons tailored to their ability.
             </p>
             <span className="bg-[#980000] text-white px-8 py-4 rounded-4xl hover:bg-[#760000] transition-colors duration-300 cursor-pointer">
-                <a href="" className="uppercase font-semibold flex justify-center">
+                <a href="/contact" className="uppercase font-semibold flex justify-center">
                   Book your first lesson
                 </a>
               </span>

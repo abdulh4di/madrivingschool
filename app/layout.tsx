@@ -3,6 +3,7 @@ import { Inter, Anton } from "next/font/google";
 import "./globals.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import AOSInit from "../components/AOS";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${anton.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
+        <AOSInit />
         <Nav />
         {children}
         <Footer />

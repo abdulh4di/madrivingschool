@@ -1,9 +1,7 @@
 import Benefits from "../components/Home/Benefits";
 import ContactBanner from "../components/Home/ContactBanner";
-import Footer from "../components/Footer";
 import Header from "../components/Home/Header";
 import Introduction from "../components/Home/Introduction";
-import Nav from "../components/Nav";
 import Stats from "../components/Home/Stats";
 import Testimonials from "../components/Home/Testimonials";
 
