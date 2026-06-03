@@ -28,11 +28,11 @@ export default function TestimonialsCarousel() {
           1024: { slidesPerView: 3 },
         }}
       >
-        <SwiperSlide>
+        <SwiperSlide className="h-auto!">
           <div
             data-aos="zoom-in"
             data-aos-delay="200"
-            className="bg-white px-6 py-8 rounded-2xl flex flex-col gap-8 items-center text-center shadow-[2px_2px_22.2px_rgba(0,0,0,0.05)]"
+            className="h-full bg-white px-6 py-8 rounded-2xl flex flex-col justify-between gap-8 items-center text-center shadow-[2px_2px_22.2px_rgba(0,0,0,0.05)]"
           >
             {/* Rating Star */}
             <div className="flex gap-1 text-[24px] text-[#F19D00]">
@@ -45,16 +45,20 @@ export default function TestimonialsCarousel() {
 
             {/* Rating Paragraph */}
             <p>
-              “Great instructor! Very patient and helped me pass first time. Highly recommended.”
+              "Alhamdulillah very good instructor.Within a very short time lesson I passed my
+              driving test with 2 minor.thank you"
             </p>
 
             {/* Rating Author */}
-            <p>- Liam K.</p>
+            <p>- Rozi Y.</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div  data-aos="zoom-in"
-            data-aos-delay="400" className="bg-white px-6 py-8 rounded-2xl flex flex-col gap-8 items-center text-center shadow-[2px_2px_22.2px_rgba(0,0,0,0.05)]">
+        <SwiperSlide className="h-auto!">
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="400"
+            className="h-full bg-white px-6 py-8 rounded-2xl flex flex-col justify-between gap-8 items-center text-center shadow-[2px_2px_22.2px_rgba(0,0,0,0.05)]"
+          >
             {/* Rating Star */}
             <div className="flex gap-1 text-[24px] text-[#F19D00]">
               <IoIosStar />
@@ -66,16 +70,21 @@ export default function TestimonialsCarousel() {
 
             {/* Rating Paragraph */}
             <p>
-              “Great instructor! Very patient and helped me pass first time. Highly recommended.”
+              "Alhamdulillah while taking my driving lesson Your advice makes me more confident to
+              pass my driving test.Now its been seven month i am driving without any points on my
+              driving licence."
             </p>
 
             {/* Rating Author */}
-            <p>- Liam K.</p>
+            <p>- Saifur R.</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div  data-aos="zoom-in"
-            data-aos-delay="600" className="bg-white px-6 py-8 rounded-2xl flex flex-col gap-8 items-center text-center shadow-[2px_2px_22.2px_rgba(0,0,0,0.05)]">
+        <SwiperSlide className="h-auto!">
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="600"
+            className="h-full bg-white px-6 py-8 rounded-2xl flex flex-col justify-between gap-8 items-center text-center shadow-[2px_2px_22.2px_rgba(0,0,0,0.05)]"
+          >
             {/* Rating Star */}
             <div className="flex gap-1 text-[24px] text-[#F19D00]">
               <IoIosStar />
@@ -87,11 +96,12 @@ export default function TestimonialsCarousel() {
 
             {/* Rating Paragraph */}
             <p>
-              “Great instructor! Very patient and helped me pass first time. Highly recommended.”
+              "Mohammed is a lovely, gentle, and patient instructor. Thanks to his calm teaching
+              style, I passed first time and now feel confident driving independently."
             </p>
 
             {/* Rating Author */}
-            <p>- Liam K.</p>
+            <p>- Christina Brown.</p>
           </div>
         </SwiperSlide>
       </Swiper>

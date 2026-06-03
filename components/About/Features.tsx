@@ -4,30 +4,27 @@ export default function Features() {
   return (
     <div className="w-full py-6 md:py-20">
       <div className="max-w-7xl mx-auto px-5 flex flex-col gap-8">
-        <h2 className="font-heading text-[40px] leading-16 text-center md:text-[50px]">
+        <h2 data-aos="fade-up" className="font-heading text-[40px] leading-16 text-center md:text-[50px]">
           What I Can Help With
         </h2>
-        <p className="text-center">
+        <p data-aos="fade-up" data-aos-delay="100" className="text-center">
           Lessons are tailored to your needs so you can learn at a pace that works for you and
           become a safe, confident driver.
         </p>
         <div className="flex flex-wrap sm:justify-center gap-2 sm:gap-8 lg:gap-16 xl:gap-40">
-          {/* Features 1 */}
-          <div className="flex flex-col gap-2">
+          <div data-aos="fade-up" data-aos-delay="200" className="flex flex-col gap-2">
             <Feature text="Beginner Driving Lessons" />
             <Feature text="Manual Driving Lessons" />
             <Feature text="Refresher Lessons" />
             <Feature text="Nervous Drivers" />
           </div>
-          {/* Features 2 */}
-          <div className="flex flex-col gap-2">
+          <div data-aos="fade-up" data-aos-delay="300" className="flex flex-col gap-2">
             <Feature text="Test Preperation" />
             <Feature text="Mock Test Practice" />
             <Feature text="Manouvers" />
             <Feature text="Junctions & Roundabouts" />
           </div>
-          {/* Features 2 */}
-          <div className="flex flex-col gap-2">
+          <div data-aos="fade-up" data-aos-delay="400" className="flex flex-col gap-2">
             <Feature text="Hill Starts" />
             <Feature text="Dual Carriageways" />
             <Feature text="Motorway Confidence" />

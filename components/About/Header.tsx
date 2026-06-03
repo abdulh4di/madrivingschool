@@ -4,22 +4,22 @@ export default function Header() {
       <div className="pointer-events-none absolute bottom-0 left-0 h-40 w-full bg-linear-to-b from-transparent to-[#F3F3F3]" />
       <div className="relative z-10 w-full pt-30 md:pt-60">
         <div className="max-w-7xl mx-auto px-5 flex flex-col items-center gap-8">
-          <h3 className="text-[16px] font-bold uppercase">About me</h3>
-          <h2 className="font-heading text-[40px] leading-12 text-center md:text-[50px] md:leading-15">
+          <h3 data-aos="fade-up" data-aos-delay="0" className="text-[16px] font-bold uppercase">About me</h3>
+          <h2 data-aos="fade-up" data-aos-delay="100" className="font-heading text-[40px] leading-12 text-center md:text-[50px] md:leading-15">
             Hi, I'm Mohammed Ali <br /> Owner of MA Driving School
           </h2>
-          <p className="text-[16px] text-center leading-5 max-w-100 md:max-w-180">
+          <p data-aos="fade-up" data-aos-delay="200" className="text-[16px] text-center leading-5 max-w-100 md:max-w-180">
             I'm a patient and professional driving instructor offering manual driving lessons for
             learners who want to build confidence, improve safely and prepare of their test.
           </p>
-          <div className="flex flex-col gap-4 items-center justify-center w-full sm:flex-row ">
+          <div data-aos="fade-up" data-aos-delay="300" className="flex flex-col gap-4 items-center justify-center w-full sm:flex-row">
             <span className="bg-[#980000] w-50 text-white px-8 py-3 rounded-4xl hover:bg-[#760000] transition-colors duration-300 cursor-pointer">
-              <a href="" className="uppercase font-semibold flex justify-center">
+              <a href="/contact" className="uppercase font-semibold flex justify-center">
                 Book a lesson
               </a>
             </span>
             <span className="bg-black w-50 text-white px-8 py-3 rounded-4xl hover:bg-[#1c1c1c] transition-colors duration-300 cursor-pointer">
-              <a href="" className="uppercase font-semibold flex justify-center">
+              <a href="/prices" className="uppercase font-semibold flex justify-center">
                 View Prices
               </a>
             </span>
@@ -28,25 +28,4 @@ export default function Header() {
       </div>
     </header>
   );
-}
-
-// xs: 390px
-// sm: 640px
-// md: 768px
-// lg: 1024px
-// xl: 1280px
-
-// Container
-// className="w-full py-20"
-
-// Row
-// className="max-w-7xl mx-auto px-5"
-
-// Container & Row
-{
-  /* <div className="w-full py-6 md:py-20">
-  <div className="max-w-7xl mx-auto px-5">
-
-  </div>
-</div> */
 }
