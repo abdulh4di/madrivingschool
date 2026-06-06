@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { MdCheckCircleOutline } from "react-icons/md";
 import { PiCoinsLight, PiUserLight, PiUsersThreeLight } from "react-icons/pi";
 import { TbSteeringWheelFilled } from "react-icons/tb";
@@ -38,9 +39,9 @@ export default function Header() {
                 <PriceFeatures text="Consistent progress" />
               </div>
               <span className="bg-[#980000] w-70 text-white px-8 py-3 rounded-4xl hover:bg-[#760000] transition-colors duration-300 cursor-pointer">
-                <a href="" className="uppercase font-semibold flex justify-center">
+                <Link href="tel:07903356758" className="uppercase font-semibold flex justify-center">
                   Book Block Lessons
-                </a>
+                </Link>
               </span>
             </div>
           </div>
@@ -64,9 +65,9 @@ export default function Header() {
                 <PriceFeatures text="Progress feedback" />
               </div>
               <span className="bg-[#980000] w-70 text-white px-8 py-3 rounded-4xl hover:bg-[#760000] transition-colors duration-300 cursor-pointer">
-                <a href="" className="uppercase font-semibold flex justify-center">
+                <Link href="tel:07903356758" className="uppercase font-semibold flex justify-center">
                   Book a Lesson Today
-                </a>
+                </Link>
               </span>
             </div>
           </div>
@@ -90,9 +91,9 @@ export default function Header() {
                 <PriceFeatures text="Calm, supportive guidance" />
               </div>
               <span className="bg-[#980000] w-70 text-white px-8 py-3 rounded-4xl hover:bg-[#760000] transition-colors duration-300 cursor-pointer">
-                <a href="" className="uppercase font-semibold flex justify-center">
+                <Link href="/contact" className="uppercase font-semibold flex justify-center">
                   Enquire Now
-                </a>
+                </Link>
               </span>
             </div>
           </div>

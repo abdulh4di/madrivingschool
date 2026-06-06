@@ -29,7 +29,7 @@ export default function TestimonialsCarousel() {
           return (
             <SwiperSlide>
               <div className="flex flex-col items-center justify-center text-center gap-6 lg:flex-row xl:gap-20">
-                <figure className="lg:h-100 lg:w-80">
+                <figure className="w-full max-w-[320px] h-90 sm:h-100 lg:h-100 lg:w-80 shrink-0">
                   <img
                     src={review.image}
                     alt=""

@@ -1,3 +1,4 @@
+import Area from "../components/Home/Area";
 import Benefits from "../components/Home/Benefits";
 import ContactBanner from "../components/Home/ContactBanner";
 import Header from "../components/Home/Header";
@@ -13,6 +14,7 @@ export default function Home() {
       <Stats />
       <Benefits />
       <Testimonials />
+      <Area />
       <ContactBanner />
     </>
   );
@@ -34,7 +36,7 @@ export default function Home() {
 
 // Container & Row
 {
-  /* <div className="w-full py-6 md:py-20">
+  /* <div className="w-full py-8 pt-30 md:pt-40 lg:mb-20">
   <div className="max-w-7xl mx-auto px-5">
 
   </div>

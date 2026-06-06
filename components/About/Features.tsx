@@ -48,24 +48,3 @@ function Feature({ text }: FeatureProps) {
     </div>
   );
 }
-
-// xs: 390px
-// sm: 640px
-// md: 768px
-// lg: 1024px
-// xl: 1280px
-
-// Container
-// className="w-full py-20"
-
-// Row
-// className="max-w-7xl mx-auto px-5"
-
-// Container & Row
-{
-  /* <div className="w-full py-6 md:py-20">
-  <div className="max-w-7xl mx-auto px-5">
-
-  </div>
-</div> */
-}

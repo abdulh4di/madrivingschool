@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Introduction() {
   return (
     <section>
@@ -21,9 +23,9 @@ export default function Introduction() {
               At MA Driving School, I help learners build confidence, stay safe on the road and prepare for their driving test with calm, patient and professional lessons tailored to their ability.
             </p>
             <span className="bg-[#980000] text-white px-8 py-4 rounded-4xl hover:bg-[#760000] transition-colors duration-300 cursor-pointer">
-                <a href="/contact" className="uppercase font-semibold flex justify-center">
+                <Link href="/contact" className="uppercase font-semibold flex justify-center">
                   Book your first lesson
-                </a>
+                </Link>
               </span>
           </div>
           </figure>

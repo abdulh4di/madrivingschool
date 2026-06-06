@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ContactBanner() {
   return (
     <section>
@@ -12,9 +14,9 @@ export default function ContactBanner() {
               confidence and goals.
             </p>
             <span data-aos="fade-up" data-aos-delay="200" className="bg-black text-white px-8 py-4 rounded-4xl hover:bg-[#1c1c1c] transition-colors duration-300 cursor-pointer">
-              <a href="" className="uppercase font-semibold flex justify-center">
+              <Link href="/contact" className="uppercase font-semibold flex justify-center">
                 Ask about lessons
-              </a>
+              </Link>
             </span>
           </div>
         </div>

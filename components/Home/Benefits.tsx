@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Benefits() {
   return (
     <section>
@@ -27,9 +29,9 @@ export default function Benefits() {
               data-aos-delay="400"
               className="bg-[#980000] text-white px-8 py-4 rounded-4xl hover:bg-[#760000] transition-colors duration-300 cursor-pointer"
             >
-              <a href="/prices" className="uppercase font-semibold flex justify-center">
+              <Link href="/prices" className="uppercase font-semibold flex justify-center">
                 Explore Lesson Packages
-              </a>
+              </Link>
             </span>
           </div>
 

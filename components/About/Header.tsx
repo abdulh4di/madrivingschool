@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header className="relative h-187.5 bg-[linear-gradient(120deg,rgba(230,160,168,0.79)_0%,rgba(253,236,239,0.765216)_25%,rgba(243,243,243,0.79)_50%,rgba(253,236,239,0.765216)_75%,rgba(230,160,168,0.79)_100%)] bg-size-[200%_200%] animate-gradient">
@@ -14,14 +16,14 @@ export default function Header() {
           </p>
           <div data-aos="fade-up" data-aos-delay="300" className="flex flex-col gap-4 items-center justify-center w-full sm:flex-row">
             <span className="bg-[#980000] w-50 text-white px-8 py-3 rounded-4xl hover:bg-[#760000] transition-colors duration-300 cursor-pointer">
-              <a href="/contact" className="uppercase font-semibold flex justify-center">
+              <Link href="/contact" className="uppercase font-semibold flex justify-center">
                 Book a lesson
-              </a>
+              </Link>
             </span>
             <span className="bg-black w-50 text-white px-8 py-3 rounded-4xl hover:bg-[#1c1c1c] transition-colors duration-300 cursor-pointer">
-              <a href="/prices" className="uppercase font-semibold flex justify-center">
+              <Link href="/prices" className="uppercase font-semibold flex justify-center">
                 View Prices
-              </a>
+              </Link>
             </span>
           </div>
         </div>

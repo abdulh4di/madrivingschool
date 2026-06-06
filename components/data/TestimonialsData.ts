@@ -1,10 +1,10 @@
 const TestimonialsData = [
   {
     id: 1,
-    image: "/assets/testimonial-test.png",
-    name: "Sarah Smith",
+    image: "/assets/Testimonial1.jpg",
+    name: "Aminur Rahman Polas",
     description:
-      "I was nervous when I first started lessons, but my instructor was calm, patient and explained everything clearly. Each lesson helped me build confidence at my own pace, and I felt fully prepared for my test. I would highly recommend MA Driving School to anyone learning to drive.",
+      "Had a lovely experience with MA Driving School. Just passed yesterday and it was my first attempt. Wonderful teaching technique, after lessons feedback, in-spot corrections made my lessons easier and gave me the chance to analyse my learning and progress. Anyone looking for a good and expert driving instructor I would definitely recommend to try MA Driving School.",
   },
   {
     id: 2,

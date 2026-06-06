@@ -28,18 +28,6 @@ export default function Footer() {
               <h2 className="font-heading text-[40px] text-center md:text-[50px]">
                 MA Driving School
               </h2>
-              {/* Social Links */}
-              <div className="flex items-center justify-center gap-8 w-full">
-                <a href="">
-                  <FaFacebook className="text-5xl text-black hover:text-[#2e2e2e] transition-colors duration-300 cursor-pointer" />
-                </a>
-                <a href="">
-                  <BiLogoInstagramAlt className="text-6xl text-black hover:text-[#2e2e2e] transition-colors duration-300 cursor-pointer" />
-                </a>
-                <a href="">
-                  <AiFillGoogleCircle className="text-5xl text-black hover:text-[#2e2e2e] transition-colors duration-300 cursor-pointer" />
-                </a>
-              </div>
             </div>
 
             <div className="flex flex-wrap gap-8 w-full xl:justify-between">
@@ -48,11 +36,11 @@ export default function Footer() {
                 <h3 className="underline font-bold">Quick Links</h3>
                 <div className="flex flex-col gap-1">
                   <FooterLink text="About" href="/about" />
-                  <FooterLink text="Prices" href="/" />
-                  <FooterLink text="Reviews" href="/" />
-                  <FooterLink text="Contact" href="/" />
-                  <FooterLink text="Privacy Policy" href="/" />
-                  <FooterLink text="Terms and Conditions" href="/" />
+                  <FooterLink text="Prices" href="/prices" />
+                  <FooterLink text="Reviews" href="/reviews" />
+                  <FooterLink text="Contact" href="/contact" />
+                  <FooterLink text="Privacy Policy" href="/privacy" />
+                  <FooterLink text="Terms and Conditions" href="/terms" />
                 </div>
               </div>
 
@@ -60,12 +48,30 @@ export default function Footer() {
               <div className="flex flex-col gap-2">
                 <h3 className="underline font-bold">Useful Links</h3>
                 <div className="flex flex-col gap-1">
-                  <FooterLink text="Show Me Tell Me Questions" href="/" />
-                  <FooterLink text="The Highway Code" href="/" />
-                  <FooterLink text="Apply for your first provisional driving licence" href="/" />
-                  <FooterLink text="Renew your driving licence" href="/" />
-                  <FooterLink text="Book your theory test" href="/" />
-                  <FooterLink text="Book your driving test" href="/" />
+                  <FooterLink
+                    text="Show Me Tell Me Questions"
+                    href="https://www.gov.uk/government/publications/car-show-me-tell-me-vehicle-safety-questions/car-show-me-tell-me-vehicle-safety-questions"
+                  />
+                  <FooterLink
+                    text="The Highway Code"
+                    href="https://www.gov.uk/guidance/the-highway-code"
+                  />
+                  <FooterLink
+                    text="Apply for your first provisional driving licence"
+                    href="https://www.gov.uk/apply-first-provisional-driving-licence"
+                  />
+                  <FooterLink
+                    text="Renew your driving licence"
+                    href="https://www.gov.uk/renew-driving-licence"
+                  />
+                  <FooterLink
+                    text="Book your theory test"
+                    href="https://www.gov.uk/book-theory-test"
+                  />
+                  <FooterLink
+                    text="Book your driving test"
+                    href="https://www.gov.uk/book-driving-test"
+                  />
                 </div>
               </div>
 
@@ -74,11 +80,15 @@ export default function Footer() {
                 <h3 className="underline font-bold">Get in Touch</h3>
                 <div className="flex items-center gap-4 rounded-full hover:bg-[#0000003f] transition-colors duration-300 cursor-pointer pr-2">
                   <MdOutlineEmail className="text-4xl text-white bg-black px-2 rounded-full" />
-                  <span className="font-medium">info@test.com</span>
+                  <a href="mailto:md.ali2650@yahoo.co.uk" className="font-medium">
+                    md.ali2650@yahoo.co.uk
+                  </a>
                 </div>
                 <div className="flex items-center gap-4 rounded-full hover:bg-[#0000003f] transition-colors duration-300 cursor-pointer pr-2">
                   <FiPhone className="text-4xl text-white bg-black px-2 rounded-full" />
-                  <a href="tel:07903356758" className="font-medium">07903 356758</a>
+                  <a href="tel:07903356758" className="font-medium">
+                    07903 356758
+                  </a>
                 </div>
                 <div className="flex items-center gap-4 rounded-full hover:bg-[#0000003f] transition-colors duration-300 cursor-pointer pr-2">
                   <IoLocationOutline className="text-4xl text-white bg-black px-2 rounded-full" />
@@ -86,7 +96,6 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
@@ -104,11 +113,16 @@ interface FooterLinkProps {
 
 function FooterLink({ text, href }: FooterLinkProps) {
   return (
-    <Link href={href}>
-      <div className="flex items-center gap-2">
+    <div>
+      <Link
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2"
+      >
         <IoIosArrowForward className="text-[rgba(152,0,0,0.43)]" />
         <span className="font-medium">{text}</span>
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 }
