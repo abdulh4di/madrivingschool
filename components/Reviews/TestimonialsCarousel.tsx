@@ -28,29 +28,28 @@ export default function TestimonialsCarousel() {
         {TestimonalsData.map((review) => {
           return (
             <SwiperSlide>
-              <div className="flex flex-col items-center justify-center text-center gap-6 lg:flex-row xl:gap-20">
-                <figure className="w-full max-w-[320px] h-90 sm:h-100 lg:h-100 lg:w-80 shrink-0">
+              <div className="flex flex-col items-center justify-center text-center gap-8 lg:flex-row lg:items-stretch xl:gap-20">
+                <figure className="w-full max-w-[320px] h-90 sm:h-100 md:h-110 lg:120 lg:w-80 shrink-0">
                   <img
                     src={review.image}
                     alt=""
                     className="w-full h-full rounded-3xl object-cover object-center"
                   />
                 </figure>
+
                 {/* Testimonial Info */}
-                <div className="flex flex-col gap-8 self-stretch lg:w-1/2">
-                  <div className="flex flex-col gap-8 py-2 text-center lg:items-start lg:text-start justify-between h-full">
-                    <div className="flex items-center justify-center gap-2 text-[#FFC107]">
-                      <MdOutlineStar className="text-4xl" />
-                      <MdOutlineStar className="text-4xl" />
-                      <MdOutlineStar className="text-4xl" />
-                      <MdOutlineStar className="text-4xl" />
-                      <MdOutlineStar className="text-4xl" />
-                    </div>
-                    <p>{review.description}</p>
-                    <h2 className="font-heading text-center text-[40px] md:text-[50px] leading-14 mt-auto">
-                      {review.name}
-                    </h2>
+                <div className="flex flex-col gap-8 justify-start lg:w-1/2 py-2 text-center lg:text-start lg:items-start w-full">
+                  <div className="flex items-center justify-center lg:justify-start gap-2 text-[#FFC107]">
+                    <MdOutlineStar className="text-4xl" />
+                    <MdOutlineStar className="text-4xl" />
+                    <MdOutlineStar className="text-4xl" />
+                    <MdOutlineStar className="text-4xl" />
+                    <MdOutlineStar className="text-4xl" />
                   </div>
+                  <p>{review.description}</p>
+                  <h2 className="font-heading text-[40px] md:text-[50px] leading-14">
+                    {review.name}
+                  </h2>
                 </div>
               </div>
             </SwiperSlide>
