@@ -51,26 +51,32 @@ export default function Footer() {
                   <FooterLink
                     text="Show Me Tell Me Questions"
                     href="https://www.gov.uk/government/publications/car-show-me-tell-me-vehicle-safety-questions/car-show-me-tell-me-vehicle-safety-questions"
+                    external
                   />
                   <FooterLink
                     text="The Highway Code"
                     href="https://www.gov.uk/guidance/the-highway-code"
+                    external
                   />
                   <FooterLink
                     text="Apply for your first provisional driving licence"
                     href="https://www.gov.uk/apply-first-provisional-driving-licence"
+                    external
                   />
                   <FooterLink
                     text="Renew your driving licence"
                     href="https://www.gov.uk/renew-driving-licence"
+                    external
                   />
                   <FooterLink
                     text="Book your theory test"
                     href="https://www.gov.uk/book-theory-test"
+                    external
                   />
                   <FooterLink
                     text="Book your driving test"
                     href="https://www.gov.uk/book-driving-test"
+                    external
                   />
                 </div>
               </div>
@@ -109,15 +115,15 @@ export default function Footer() {
 interface FooterLinkProps {
   text: string;
   href: string;
+  external?: boolean
 }
 
-function FooterLink({ text, href }: FooterLinkProps) {
+function FooterLink({ text, href, external = false }: FooterLinkProps) {
   return (
     <div>
       <Link
         href={href}
-        target="_blank"
-        rel="noopener noreferrer"
+        {...(external && { target: "_blank", rel: "noopener noreferrer" })}
         className="inline-flex items-center gap-2"
       >
         <IoIosArrowForward className="text-[rgba(152,0,0,0.43)]" />
