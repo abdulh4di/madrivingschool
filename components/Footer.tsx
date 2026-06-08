@@ -86,8 +86,8 @@ export default function Footer() {
                 <h3 className="underline font-bold">Get in Touch</h3>
                 <div className="flex items-center gap-4 rounded-full hover:bg-[#0000003f] transition-colors duration-300 cursor-pointer pr-2">
                   <MdOutlineEmail className="text-4xl text-white bg-black px-2 rounded-full" />
-                  <a href="mailto:md.ali2650@yahoo.co.uk" className="font-medium">
-                    md.ali2650@yahoo.co.uk
+                  <a href="mailto:madrivingnewcastle@outlook.com" className="font-medium">
+                    madrivingnewcastle@outlook.com
                   </a>
                 </div>
                 <div className="flex items-center gap-4 rounded-full hover:bg-[#0000003f] transition-colors duration-300 cursor-pointer pr-2">

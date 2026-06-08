@@ -60,7 +60,7 @@ export default function Header() {
             className="flex flex-col gap-8 bg-[#FFFFFF] px-4 py-6 rounded-2xl shadow-[2px_2px_22.2px_rgba(0,0,0,0.25)] xl:w-[70%]"
             onSubmit={onSubmit}
           >
-            <input type="hidden" name="access_key" value="dd64004b-7db6-42ca-88c2-0a195b633651" />
+            <input type="hidden" name="access_key" value="8297d3e7-70f2-4a56-8757-591036e7189e" />
             <div>
               <div className="w-full flex flex-col md:flex-row">
                 <div className="flex-1 flex flex-col gap-2 text-[14px] px-4 py-2">
@@ -168,8 +168,8 @@ export default function Header() {
                 <div className="bg-black p-3 rounded-full">
                   <FaRegEnvelope className="text-2xl xl:text-3xl text-white" />
                 </div>
-                <Link href="mailto:md.ali2650@yahoo.co.uk" className="font-medium xl:text-[20px]">
-                  md.ali2650@yahoo.co.uk
+                <Link href="mailto:madrivingnewcastle@outlook.com" className="font-medium text-start xl:text-[20px]">
+                  madrivingnewcastle <br />@outlook.com
                 </Link>
               </div>
               <div className="flex items-center gap-4 rounded-full hover:bg-[#0000003f] transition-colors duration-300 cursor-pointer pr-2">
