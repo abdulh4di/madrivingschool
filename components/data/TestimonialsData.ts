@@ -34,6 +34,13 @@ const TestimonialsData = [
     description:
       "Ali is a fantastic instructor and helped me pass first time. His lessons were well structured, easy to follow and focused on the areas I needed to improve. He gave clear feedback after each session and corrected mistakes in a calm, helpful way. I felt more confident every week and would definitely recommend MA Driving School." ,
   },
+  {
+    id: 6,
+    image: "/assets/Navjeet.jpg",
+    name: "Navjeet Kaur",
+    description:
+      "Ali made learning to drive a really positive experience from start to finish. He was patient, professional and always explained things in a way that made sense. Each lesson helped me build confidence, especially with the areas I struggled with most. His calm approach made a big difference, and I would definitely recommend MA Driving School." ,
+  },
 ];
 
 export default TestimonialsData;
