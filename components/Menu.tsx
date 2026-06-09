@@ -27,7 +27,7 @@ const Menu = ({ menuOpen, onClose }: MenuProps) => {
           <MenuLink text="Contact" href="/contact" onClose={onClose} />
         </div>
         <span className="bg-[#980000] text-white px-8 py-4 rounded-lg hover:bg-[#760000] transition-colors duration-300 cursor-pointer">
-          <a href="" className="uppercase font-semibold flex justify-center">
+          <a href="/contact" className="uppercase font-semibold flex justify-center">
             Book a Lesson
           </a>
         </span>
