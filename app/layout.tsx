@@ -4,6 +4,7 @@ import "./globals.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import AOSInit from "../components/AOS";
+import PreloaderWrapper from "../components/Preloader/PreloaderWrapper";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${anton.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
+        <PreloaderWrapper />
         <AOSInit />
         <Nav />
         {children}

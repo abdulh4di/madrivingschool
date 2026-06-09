@@ -5,7 +5,7 @@ export default function Introduction() {
     <section>
         <div className="w-full py-6 md:py-20">
         <div className="max-w-7xl mx-auto px-5">
-          <figure data-aos="fade-up" data-aos-delay="250" className="rounded-2xl overflow-hidden h-175 md:h-150 relative shadow-[2px_2px_22.2px_rgba(0,0,0,0.25)]">
+          <figure data-aos="fade-up" data-aos-delay="1250" className="rounded-2xl overflow-hidden h-175 md:h-150 relative shadow-[2px_2px_22.2px_rgba(0,0,0,0.25)]">
             <img
               src="/assets/Intro-mobile.png"
               alt=""

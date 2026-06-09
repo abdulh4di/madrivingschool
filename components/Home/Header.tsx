@@ -9,6 +9,7 @@ export default function Header() {
             {/* Left Content */}
             <div
               data-aos="fade-up"
+                data-aos-delay="950"
               className="flex flex-col items-center justify-center gap-10 bg-white rounded-2xl shadow-[2px_2px_22.2px_rgba(0,0,0,0.25)] px-8 py-12 md:w-1/2 md:items-start"
             >
               <h3 className="text-[16px] font-bold uppercase">MA Driving School</h3>
@@ -29,7 +30,7 @@ export default function Header() {
 
             <figure
               data-aos="fade-up"
-              data-aos-delay="150"
+              data-aos-delay="1050"
               className="md:w-1/2 h-87.5 sm:h-112.5 md:h-140 overflow-hidden rounded-2xl shadow-[2px_2px_22.2px_rgba(0,0,0,0.25)] relative"
             >
               <img

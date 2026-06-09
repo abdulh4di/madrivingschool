@@ -25,7 +25,12 @@ export default function ContactBanner() {
               data-aos-delay="200"
               className="bg-black text-white px-8 py-4 rounded-4xl hover:bg-[#1c1c1c] transition-colors duration-300 cursor-pointer"
             >
-              <Link href="tel:07903356758" className="uppercase font-semibold flex justify-center">
+              <Link
+                href="https://wa.me/447903356758"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="uppercase font-semibold flex justify-center"
+              >
                 Start Learning Today
               </Link>
             </span>

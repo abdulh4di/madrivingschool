@@ -92,7 +92,12 @@ export default function Footer() {
                 </div>
                 <div className="flex items-center gap-4 rounded-full hover:bg-[#0000003f] transition-colors duration-300 cursor-pointer pr-2">
                   <FiPhone className="text-4xl text-white bg-black px-2 rounded-full" />
-                  <a href="tel:07903356758" className="font-medium">
+                  <a
+                    href="https://wa.me/447903356758"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium"
+                  >
                     07903 356758
                   </a>
                 </div>
@@ -115,7 +120,7 @@ export default function Footer() {
 interface FooterLinkProps {
   text: string;
   href: string;
-  external?: boolean
+  external?: boolean;
 }
 
 function FooterLink({ text, href, external = false }: FooterLinkProps) {

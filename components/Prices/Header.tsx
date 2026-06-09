@@ -7,13 +7,20 @@ export default function Header() {
   return (
     <div className="relative z-10 w-full pt-30 mb-10 md:pt-40">
       <div className="max-w-7xl mx-auto px-5 flex flex-col items-center gap-8">
-        <h2 data-aos="fade-up" className="font-heading text-[40px] leading-12 text-center md:text-[50px] md:leadinh-15">
+        <h2
+          data-aos="fade-up"
+          className="font-heading text-[40px] leading-12 text-center md:text-[50px] md:leadinh-15"
+        >
           Choose the Right Lesson Package
         </h2>
 
         <div className="w-full flex flex-wrap justify-center gap-14 md:gap-8">
           {/* Best Value Price Card */}
-          <div data-aos="fade-up" data-aos-delay="200" className="flex flex-col w-full max-w-90 order-first lg:order-2">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className="flex flex-col w-full max-w-90 order-first lg:order-2"
+          >
             <div className="flex justify-center gap-2 h-24 text-[#6D6666] bg-[#E0E0E0] rounded-t-4xl py-1">
               <PiCoinsLight className="text-7xl" />
               <span className="font-heading text-[32px] uppercase">Best Value</span>
@@ -39,7 +46,12 @@ export default function Header() {
                 <PriceFeatures text="Consistent progress" />
               </div>
               <span className="bg-[#980000] w-70 text-white px-8 py-3 rounded-4xl hover:bg-[#760000] transition-colors duration-300 cursor-pointer">
-                <Link href="tel:07903356758" className="uppercase font-semibold flex justify-center">
+                <Link
+                  href="https://wa.me/447903356758"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="uppercase font-semibold flex justify-center"
+                >
                   Book Block Lessons
                 </Link>
               </span>
@@ -47,7 +59,11 @@ export default function Header() {
           </div>
 
           {/* Price Card 2 */}
-          <div data-aos="fade-up" data-aos-delay="100" className="flex flex-col w-full max-w-90 order-2 lg:order-1 md:mt-19">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            className="flex flex-col w-full max-w-90 order-2 lg:order-1 md:mt-19"
+          >
             <div className="relative bg-[#FFFFFF] w-full rounded-4xl shadow-[2px_2px_22.2px_rgba(0,0,0,0.15)] px-8 py-6 flex flex-col items-center gap-8">
               <div className="flex flex-col items-center gap-2">
                 <PiUserLight className="text-7xl bg-[#F5E1DE] text-[#AC0404] rounded-full p-2" />
@@ -65,7 +81,12 @@ export default function Header() {
                 <PriceFeatures text="Progress feedback" />
               </div>
               <span className="bg-[#980000] w-70 text-white px-8 py-3 rounded-4xl hover:bg-[#760000] transition-colors duration-300 cursor-pointer">
-                <Link href="tel:07903356758" className="uppercase font-semibold flex justify-center">
+                <Link
+                  href="https://wa.me/447903356758"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="uppercase font-semibold flex justify-center"
+                >
                   Book a Lesson Today
                 </Link>
               </span>
@@ -73,7 +94,11 @@ export default function Header() {
           </div>
 
           {/* Price Card 3 */}
-          <div data-aos="fade-up" data-aos-delay="300" className="flex flex-col w-full max-w-90 order-3 md:mt-19">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="300"
+            className="flex flex-col w-full max-w-90 order-3 md:mt-19"
+          >
             <div className="relative bg-[#FFFFFF] w-full rounded-4xl shadow-[2px_2px_22.2px_rgba(0,0,0,0.15)] px-8 py-6 flex flex-col items-center gap-8">
               <div className="flex flex-col items-center gap-2">
                 <TbSteeringWheelFilled className="text-7xl bg-[#F5E1DE] text-[#AC0404] rounded-full p-2" />

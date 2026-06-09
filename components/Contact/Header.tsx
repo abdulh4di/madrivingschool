@@ -168,15 +168,24 @@ export default function Header() {
                 <div className="bg-black p-3 rounded-full">
                   <FaRegEnvelope className="text-2xl xl:text-3xl text-white" />
                 </div>
-                <Link href="mailto:madrivingnewcastle@outlook.com" className="font-medium text-start xl:text-[20px]">
-                  madrivingnewcastle <br />@outlook.com
+                <Link
+                  href="mailto:madrivingnewcastle@outlook.com"
+                  className="font-medium text-start xl:text-[20px]"
+                >
+                  madrivingnewcastle <br />
+                  @outlook.com
                 </Link>
               </div>
               <div className="flex items-center gap-4 rounded-full hover:bg-[#0000003f] transition-colors duration-300 cursor-pointer pr-2">
                 <div className="bg-black p-3 rounded-full">
                   <FiPhoneCall className="text-2xl xl:text-3xl text-white" />
                 </div>
-                <Link href="tel:07903356758" className="font-medium xl:text-[20px]">
+                <Link
+                  href="https://wa.me/447903356758"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium xl:text-[20px]"
+                >
                   07903 356758
                 </Link>
               </div>
