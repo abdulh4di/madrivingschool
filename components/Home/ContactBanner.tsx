@@ -17,7 +17,12 @@ export default function ContactBanner() {
               wheel.
             </p>
             <span className="bg-black text-white px-8 py-4 rounded-4xl hover:bg-[#1c1c1c] transition-colors duration-300 cursor-pointer">
-              <Link href="tel:07903356758" className="uppercase font-semibold flex justify-center">
+              <Link
+                href="https://wa.me/447903356758?text=Hi%20Ali%2C%20I%20would%20like%20to%20book%20my%20first%20driving%20lesson"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="uppercase font-semibold flex justify-center"
+              >
                 Book Your First Lesson
               </Link>
             </span>
