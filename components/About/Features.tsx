@@ -4,7 +4,10 @@ export default function Features() {
   return (
     <div className="w-full py-6 md:py-20">
       <div className="max-w-7xl mx-auto px-5 flex flex-col gap-8">
-        <h2 data-aos="fade-up" className="font-heading text-[40px] leading-16 text-center md:text-[50px]">
+        <h2
+          data-aos="fade-up"
+          className="font-heading text-[40px] leading-16 text-center md:text-[50px]"
+        >
           What I Can Help With
         </h2>
         <p data-aos="fade-up" data-aos-delay="100" className="text-center">
@@ -15,7 +18,7 @@ export default function Features() {
           <div data-aos="fade-up" data-aos-delay="200" className="flex flex-col gap-2">
             <Feature text="Beginner Driving Lessons" />
             <Feature text="Manual Driving Lessons" />
-            <Feature text="Refresher Lessons" />
+            <Feature text="Automatic Lessons" />
             <Feature text="Nervous Drivers" />
           </div>
           <div data-aos="fade-up" data-aos-delay="300" className="flex flex-col gap-2">
@@ -25,7 +28,7 @@ export default function Features() {
             <Feature text="Junctions & Roundabouts" />
           </div>
           <div data-aos="fade-up" data-aos-delay="400" className="flex flex-col gap-2">
-            <Feature text="Hill Starts" />
+            <Feature text="Refresher Lessons" />
             <Feature text="Dual Carriageways" />
             <Feature text="Motorway Confidence" />
             <Feature text="Safe Driving Habits" />

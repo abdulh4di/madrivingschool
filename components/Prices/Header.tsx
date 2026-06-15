@@ -105,7 +105,7 @@ export default function Header() {
                 <h2 className="font-heading text-[32px] text-center">Refresher Lesson</h2>
                 <div className="flex gap-2 items-baseline justify-end">
                   <span className="text-[#AC0404] font-heading text-[32px] text-center">£40</span>
-                  <span className="font-heading text-[24px] text-center">for 10 hours</span>
+                  <span className="font-heading text-[24px] text-center">per hour</span>
                 </div>
                 <p className="text-center font-medium">Best for building confidence</p>
               </div>
