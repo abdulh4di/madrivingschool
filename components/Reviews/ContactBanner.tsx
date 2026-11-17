@@ -20,20 +20,16 @@ export default function ContactBanner() {
               Read genuine Google reviews from learners who built confidence and passed with MA
               Driving School.
             </p>
-            <span
+            <Link
+              href="https://www.google.com/maps/place/MA+DRIVING+SCHOOL/data=!4m8!3m7!1s0x685d86dc3be8e537:0xadeded00a67591ea!8m2!3d55.0264442!4d-1.635553!9m1!1b1!16s%2Fg%2F11z6rn8jnp"
+              target="_blank"
+              rel="noopener noreferrer"
               data-aos="fade-up"
               data-aos-delay="200"
-              className="bg-black text-white px-8 py-4 rounded-4xl hover:bg-[#1c1c1c] transition-colors duration-300 cursor-pointer"
+              className="bg-black text-white px-8 py-4 rounded-4xl hover:bg-[#1c1c1c] transition-colors duration-300 cursor-pointer uppercase font-semibold flex justify-center"
             >
-              <Link
-                href="https://www.google.com/maps/place/MA+Driving+School/@55.0024427,-1.7394143,12z/data=!3m1!4b1!4m6!3m5!1s0xf7f44245e6e5:0x251cd8c4e0f6b21c!8m2!3d55.0023722!4d-1.6568434!16s%2Fg%2F11zb51929d?entry=ttu"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="uppercase font-semibold flex justify-center"
-              >
-                View Google Reviews
-              </Link>
-            </span>
+              View Google Reviews
+            </Link>
           </div>
         </div>
       </div>

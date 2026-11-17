@@ -10,12 +10,14 @@ export default function Testimonials() {
             What My Learners Say
           </h2>
           <TestimonialsCarousel />
-          <span  data-aos="fade-up"
-            data-aos-delay="650"className="bg-[#980000] text-white px-8 py-4 rounded-4xl hover:bg-[#760000] transition-colors duration-300 cursor-pointer">
-            <Link href="/reviews" className="uppercase font-semibold flex justify-center">
-              View more reviews
-            </Link>
-          </span>
+          <Link
+            href="/reviews"
+            data-aos="fade-up"
+            data-aos-delay="650"
+            className="bg-[#980000] text-white px-8 py-4 rounded-4xl hover:bg-[#760000] transition-colors duration-300 cursor-pointer uppercase font-semibold flex justify-center"
+          >
+            View more reviews
+          </Link>
         </div>
       </div>
     </section>
